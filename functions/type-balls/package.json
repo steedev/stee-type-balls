@@ -1,0 +1,19 @@
+{
+  "name": "testtype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.6",
+    "typescript": "^4.0.3",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

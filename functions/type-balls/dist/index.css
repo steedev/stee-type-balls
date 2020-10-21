@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,300&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: #444444;
+    display: flex;
+    justify-content: center;
+}
+
+#table {
+    width: 500px;
+    position: relative;
+
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border: 2px solid black;
+    display: flex;
+    background: #ddd;
+    justify-content: center;
+    align-items: center;
+}
+
+.square>.ball {
+    width: 70%;
+    height: 70%;
+    border-radius: 25px;
+    border: 2px solid #444444;
+}
+
+#config {
+    width: 200px;
+}
+
+#queue {
+    margin-top:20px;
+    width: 550px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#queue>.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #444444;
+    box-sizing: border-box;
+}
+
+#allColors {
+    width: 550px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#allColors>.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid  #444444;
+    box-sizing: border-box;
+}
+
+.square>.highlight {
+    width: 90%;
+    height:90%;
+    border:2px solid white;
+}
+
+#showScore{
+    color:white;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    font-size: 26px;
+    color:white;
+}
+
+.finder {
+    background-color:rgb(86, 149, 190);
+}
+
+.correctFinder {
+    background-color: #5fb16d;
+
+}
+
+.wrongFinder {
+    background-color: #b1645f;
+    font-size: 22px;
+}
